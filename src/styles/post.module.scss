@@ -28,7 +28,7 @@
   margin-top: 2rem;
   line-height: 2rem;
   font-size: 1.25rem;
-  color: var(--gray-100);
+  color: var(--gray-50);
 
   p, ul {
     margin: 1.5rem 0;
@@ -39,6 +39,14 @@
 
     li {
       margin: 0.5rem 0;
+    }
+  }
+  a {
+    color: var(--yellow-500);
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
     }
   }
 }
